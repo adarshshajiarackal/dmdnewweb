@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+}
+body{
+    margin: auto;
+    display:inline-flex;
+}
+button{
+    background-color: aquamarine;
+    border: none;
+    padding: 10px;
+    /* border-radius: 10px; */
+}
+.drop-menu{
+    background-color: black;
+    color: white;
+
+
+
+    
+    display:none;
+}
+ul li{
+    padding:20px;
+}
+ul li:hover{
+    background-color: rgb(59, 58, 58);
+}
+.container-div:hover .drop-menu {
+    display: block;
+    background-color: black;
+}
